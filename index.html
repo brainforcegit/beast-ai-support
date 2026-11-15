@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="BEAST AI — Your Personal Video Radio. AI-powered video experiences and gamified productivity.">
+  <title>BEAST AI — Your Personal Video Radio</title>
+  <style>
+    :root { color-scheme: dark; --bg:#08090d; --panel:#11141d; --muted:#a7adbd; --line:#252a38; --accent:#a78bfa; --accent2:#6ee7d8; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:radial-gradient(ellipse at 80% 0%,#29204b 0,transparent 34%),var(--bg); color:#f7f7fb; line-height:1.6; }
+    a { color:inherit; }
+    .wrap { width:min(1080px,calc(100% - 40px)); margin:auto; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:25px 0; border-bottom:1px solid var(--line); }
+    .brand { font-weight:900; letter-spacing:.12em; font-size:1.05rem; }
+    .tag { color:var(--accent2); font-size:.75rem; letter-spacing:.16em; font-weight:700; }
+    .hero { padding:88px 0 64px; max-width:850px; }
+    h1 { font-size:clamp(2.8rem,8vw,5.8rem); line-height:.98; letter-spacing:-.065em; margin:18px 0 24px; }
+    h1 span { background:linear-gradient(90deg,#c4b5fd,#6ee7d8); -webkit-background-clip:text; background-clip:text; color:transparent; }
+    .lead { color:#c5c9d5; font-size:clamp(1.1rem,2.5vw,1.35rem); max-width:720px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; margin-top:30px; }
+    .btn { display:inline-block; padding:12px 18px; border-radius:999px; text-decoration:none; font-weight:750; background:#c4b5fd; color:#11101a; }
+    .btn.secondary { background:transparent; border:1px solid #55506f; color:#f7f7fb; }
+    section { padding:35px 0; }
+    h2 { font-size:1.8rem; letter-spacing:-.035em; margin:0 0 16px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .card { background:linear-gradient(145deg,#151925,#0e1017); border:1px solid var(--line); border-radius:18px; padding:22px; }
+    .card h3 { margin:0 0 7px; font-size:1.08rem; }
+    .card p, .muted { color:var(--muted); margin:0; }
+    .vision { border:1px solid #494064; background:linear-gradient(120deg,#1a1730,#111821); border-radius:22px; padding:28px; }
+    .status { display:inline-flex; border:1px solid #3c665d; color:#8ef0d7; border-radius:999px; padding:5px 10px; font-size:.75rem; font-weight:800; letter-spacing:.1em; }
+    footer { border-top:1px solid var(--line); margin-top:50px; padding:25px 0 40px; color:var(--muted); font-size:.9rem; }
+    @media(max-width:650px){ .grid{grid-template-columns:1fr;} .hero{padding:65px 0 45px;} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">BEAST AI</div>
+      <div class="tag">EARLY-STAGE CONCEPT</div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="tag">AI · VIDEO · GAMIFICATION · PRODUCTIVITY</div>
+        <h1>Your Personal<br><span>Video Radio.</span></h1>
+        <p class="lead">What if your workday felt less like a routine and more like your own interactive experience? BEAST AI is a concept for personalized video content, intelligent work-aware experiences and gamified challenges.</p>
+        <div class="actions">
+          <a class="btn" href="#vision">Explore the idea</a>
+          <a class="btn secondary" href="#collaborate">Collaborate</a>
+        </div>
+      </div>
+
+      <section id="vision">
+        <div class="status">THE VISION</div>
+        <h2 style="margin-top:14px">Turn everyday work into an experience.</h2>
+        <p class="muted" style="max-width:780px">Instead of ordinary background music, imagine choosing video content you enjoy. BEAST AI could adapt the experience to your work context, interests, skills and progress — while turning real tasks into optional, personalized challenges.</p>
+      </section>
+
+      <section>
+        <h2>What BEAST AI could bring together</h2>
+        <div class="grid">
+          <article class="card"><h3>01 · Video Radio</h3><p>A personalized stream of suitable video scenes, audio and content based on your preferences.</p></article>
+          <article class="card"><h3>02 · Work Context</h3><p>AI that can understand tasks and workflow with the user's permission, then adapt the experience.</p></article>
+          <article class="card"><h3>03 · Personal Challenges</h3><p>Turn goals and completed tasks into levels, milestones and optional game-like challenges.</p></article>
+          <article class="card"><h3>04 · Adaptive Experience</h3><p>Adjust the experience using user feedback and, optionally, consent-based smartwatch activity data.</p></article>
+        </div>
+      </section>
+
+      <section>
+        <div class="vision">
+          <div class="tag">A SIMPLE EXAMPLE</div>
+          <h2 style="margin-top:12px">A developer's workday, reimagined.</h2>
+          <p class="muted">You're working through a challenging task. BEAST AI could help make the experience more engaging with a fitting video atmosphere and a small optional challenge matched to your goals and progress — without getting in the way of concentration.</p>
+        </div>
+      </section>
+
+      <section id="collaborate">
+        <h2>Help explore the idea</h2>
+        <p class="muted" style="max-width:760px">BEAST AI is currently an early-stage concept, not a finished product. I'm interested in honest feedback and conversations with developers, entrepreneurs, creators and potential collaborators who would like to explore what this could become.</p>
+        <div class="actions">
+          <a class="btn" href="https://github.com/" target="_blank" rel="noopener">Find the project on GitHub</a>
+          <a class="btn secondary" href="https://x.com/" target="_blank" rel="noopener">Connect on X</a>
+        </div>
+        <p class="muted" style="font-size:.88rem;margin-top:16px">Video and audio integrations would respect platform terms, copyright and user permissions. Any work or health-related data would be optional and privacy-first.</p>
+      </section>
+    </main>
+
+    <footer>© <span id="year"></span> BEAST AI · An independent early-stage concept. Not affiliated with MrBeast or Beast Games.</footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
