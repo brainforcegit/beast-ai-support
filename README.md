@@ -13,8 +13,8 @@ A public landing page for the BEAST AI early-stage concept.
 
 Your URL will be:
 
-`https://YOUR-GITHUB-USERNAME.github.io/beast-ai-support/`
+`https://brainforcegit.github.io/beast-ai-support/`
 
-Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
+Replace `brainforcegit` with your actual GitHub username.
 
 This is an early-stage concept page. Add your real contact links before sharing it widely.
